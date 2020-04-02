@@ -1,0 +1,68 @@
+#list-home-list > i{
+	font-size:  3.5rem;
+}
+#list-profile-list>i{
+	font-size:  3.5rem;
+}
+#list-messages-list > i{
+	font-size:  3.5rem;
+}
+.list-group {
+    max-width: 7rem;
+    margin-right: 1px;
+}
+#nav-tabContent{
+	font-size: 2.5rem;
+}
+#list-home-list > i{
+	color: #26CD64;
+}#list-profile-list > i{
+	color: #DF2125;
+}
+#list-messages-list > i{
+	color: #D6A400;
+}
+#list-profile-list > p{
+	margin-left: -.4rem;
+}
+
+
+
+/* Desktop-------- */
+@media (min-width: 750px) { 
+	#list-messages{
+		margin-left: -9rem;
+	}
+	#list-home-list > p{
+    	margin-left: -.6rem;
+	}
+	#list-home-list{
+		padding-left: 30px;
+	}
+	#list-profile-list{
+		padding-left: 28px;
+	}
+	#list-messages-list > p{
+	margin-left: .1rem;
+}
+
+}
+/* Mobile-------- */
+@media (max-width: 750px) { 
+	#list-home-list > p{
+    	margin-left: -1rem;
+	}
+	#list-messages{
+		font-size: 1rem;
+	}
+	#nav-tabContent{
+		font-size: 1.7rem;
+	}
+	#list-messages{
+		margin-left: -1.5rem;
+	}
+
+}
+
+
+
